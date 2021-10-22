@@ -9,7 +9,7 @@ module.exports = {
         '@/components': path.resolve(__dirname, '..', 'src/components'),
         '@/utils': path.resolve(__dirname, '..', 'src/utils'),
         '@/images': path.resolve(__dirname, '..', 'src/images'),
-        '@/project': path.resolve(__dirname, '..', 'project.config.json'),
+        '@/styles': path.resolve(__dirname, '..', 'src/styles'),
     },
     sass: {
         resource: path.resolve(__dirname, '..', 'src/styles/variable.scss')
